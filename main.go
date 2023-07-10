@@ -8,7 +8,7 @@ import (
 )
 
 func vote(id int, a chan int) {
-	for i := 0; i <= 10; i++ {
+	for i := 0; i <= 1000; i++ {
 
 		// 构造请求参数
 		requestData := map[string]int{"id": id}
